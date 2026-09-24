@@ -1,10 +1,9 @@
-package user
+package main
 
 type User struct {
 	Type string
 }
 
 func CurrUser(Type string) *User {
-	return &User(Type)
+	return &User{Type: Type}
 }
-
